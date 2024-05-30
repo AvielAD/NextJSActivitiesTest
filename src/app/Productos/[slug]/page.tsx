@@ -18,6 +18,8 @@ const Page =({ params }: { params: { slug: string } })=>{
 
     return (<>
         <h1>Detalles del Producto: {productoDetails.Nombre}</h1>
+        <p>{productoDetails.Descripcion}</p>
+        <p>{productoDetails.Costo}</p>
     
     </>)
 }
