@@ -9,11 +9,18 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@apollo/client": "^3.10.4",
+    "@apollo/server": "^4.10.4",
+    "@as-integrations/next": "^3.0.0",
     "@prisma/client": "^5.14.0",
+    "apollo-datasource-mongodb": "^0.6.0",
+    "apollo-server": "^3.13.0",
     "axios": "^1.7.2",
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
     "formik": "^2.4.6",
+    "graphql": "^16.8.1",
+    "mongoose": "^8.4.1",
     "next": "14.2.3",
     "prisma": "^5.14.0",
     "react": "^18",
